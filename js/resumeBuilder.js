@@ -48,8 +48,7 @@ var bio = {
 };
 
 var projects = {
-//    "projects": [
-    [
+    "projects": [
         {
             "title": "PRV Redaktionstool",
             "dates": "2012/09 - 2013/03",
@@ -142,6 +141,20 @@ var education  = {
             "major": ["Schwerpunktfach Wirtschaft und Recht"],
             "dates": "1996/08 - 2002/05",
             "url": "http://www.kssursee.ch",
+        },
+    ],
+    onlineCourses: [
+        {
+            "title": "JavaScript Basics",
+            "scool": "Udacity",
+            "dates": "2015/07 - 2015/08",
+            "url": "https://www.udacity.com/course/javascript-basics--ud804",
+        },
+        {
+            "title": "Learning how to learn",
+            "scool": "University of California, San Diego",
+            "dates": "2015/07 - 2015/08",
+            "url": "https://www.coursera.org/learn/learning-how-to-learn/",
         },
     ]
 };
