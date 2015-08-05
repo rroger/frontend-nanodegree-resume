@@ -25,20 +25,26 @@ This is empty on purpose! Your code to build the resume will go here.
 
 
 var bio = {
-    "name": name,
-    "role": "Fullstack Webdeveloper",
+    "name": "Roger Rüttimann",
+    "role": "Software developer",
+    "welcomeMessage": "Ours is a world where people do not know what they want and are willing to go through hell to get it.",
     "contacts": {
-        "mobile": "---",
+//        "mobile": "---",
         "email": "roger@azy.ch",
         "github": "rroger",
-        "twitter": "",
+//        "twitter": "",
         "location": "Zürich"
     },
-    "contact info": "roger@azy.ch",
     "bioPic": "https://lh3.googleusercontent.com/-f_e8dpXkIvI/AAAAAAAAAAI/AAAAAAAAD74/-oso8Zzv9U0/s120-c/photo.jpg",
-    "welcomeMessage": "Ours is a world where people do not know what they want and are willing to go through hell to get it.",
-    "skills": [
-        "Python", "Java", "Eiffel", "html", "LATEX", "C++", "C"]
+    "skills":
+        [
+            "teamorientiert",
+            "ausdauernd",
+            "belastbar",
+            "ruhig",
+            "ausgeglichen",
+            "lösungsorientiert+",
+        ]
 };
 
 var work = {
