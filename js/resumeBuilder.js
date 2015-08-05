@@ -38,12 +38,11 @@ var bio = {
     "bioPic": "https://lh3.googleusercontent.com/-f_e8dpXkIvI/AAAAAAAAAAI/AAAAAAAAD74/-oso8Zzv9U0/s120-c/photo.jpg",
     "skills":
         [
-            "teamorientiert",
+            "lösungs- und teamorientiert",
             "ausdauernd",
             "belastbar",
             "ruhig",
             "ausgeglichen",
-            "lösungsorientiert+",
         ]
 };
 
@@ -159,3 +158,15 @@ var education  = {
     ]
 };
 
+$("#header").prepend(HTMLheaderRole.replace("%data%", bio.role));
+$("#header").prepend(HTMLheaderName.replace("%data%", bio.name));
+$("#topContacts").append(HTMLemail.replace("%data%", bio.contacts.email));
+//$("#topContacts").append(HTMLmobile.replace("%data%", bio.contacts.mobile));
+$("#topContacts").append(HTMLgithub.replace("%data%", bio.contacts.github));
+//$("#topContacts").append(HTMLtwitter.replace("%data%", bio.contacts.twitter));
+$("#header").append(HTMLbioPic.replace("%data%", bio.bioPic));
+$("#header").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
+$("#footerContacts").append(HTMLemail.replace("%data%", bio.contacts.email));
+//$("#footerContacts").append(HTMLmobile.replace("%data%", bio.contacts.mobile));
+$("#footerContacts").append(HTMLgithub.replace("%data%", bio.contacts.github));
+//$("#footerContacts").append(HTMLtwitter.replace("%data%", bio.contacts.twitter));
