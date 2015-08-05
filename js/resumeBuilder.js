@@ -47,6 +47,20 @@ var bio = {
         ]
 };
 
+var projects = {
+//    "projects": [
+    [
+        {
+            "title": "PRV Redaktionstool",
+            "dates": "2012/09 - 2013/03",
+            "description": "Entwicklung eines Redaktions- und Buchproduktionssystems auf Basis von Python, Django, Celery, ReportLab und PostgreSQL",
+            "images": [
+                "https://www.newsaktuell.ch/img/pr-software/medienhandbuch.jpg",
+            ]
+        }
+    ]
+};
+
 var work = {
     "jobs": [
         {
@@ -132,26 +146,3 @@ var education  = {
     ]
 };
 
-
-var formattedName = HTMLheaderName.replace("%data%", bio.name);
-var formattedRole = HTMLheaderRole.replace("%data%", bio.role);
-
-//$("#main").append(["Roger Rüttimann"]);
-$("#header").prepend(formattedName);
-$("#header").prepend(formattedRole);
-
-$("#header").prepend(HTMLbioPic.replace("%data%", bio.bioPic));
-$("#header").append(HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage));
-$("#header").append(HTMLskillsStart);
-for(ii = 0; ii < bio.skills.length; ii++) {
-    $("#skills-h3").append(HTMLskills.replace("%data%",bio.skills[ii]));
-}
-
-$("#workExperience").append(work["position"]);
-$("#header").append(work["position"]);
-$("#education").append(education.school);
-$("#header").append(education.school);
-$("#footerContacts").append(HTMLemail.replace("%data%", bio.contacts.email));
-$("#footerContacts").append(HTMLmobile.replace("%data%", bio.contacts.mobile));
-$("#footerContacts").append(HTMLgithub.replace("%data%", bio.contacts.github));
-$("#footerContacts").append(HTMLtwitter.replace("%data%", bio.contacts.twitter));
