@@ -90,16 +90,44 @@ var work = {
 var education  = {
     "schools": [
         {
-            "name": "ZHAW",
-            "city": "Winterthur",
+            "name": "Universität Zürich",
+            "location": "Zürich",
             "degree": "BA",
-            "major": ["CompSci"]
+            "major": ["Philosophie"],
+            "dates": "2015/09 - 2022/09",
+            "url": "http://www.uzh.ch",
         },
         {
-            "name": "UZH",
-            "city": "Zürich",
+            "name": "ZHAW",
+            "location": "Winterthur",
+            "degree": "BA",
+            "major": ["Computer Science"],
+            "dates": "2010/09 - 2012/02",
+            "url": "http://www.zhaw.ch",
+        },
+        {
+            "name": "Universität Zürich",
+            "location": "Zürich",
             "degree": "-",
-            "major": ["Philosophy", "German"]
+            "major": ["Germanistik, Philosophie"],
+            "dates": "2008/09 - 2010/06",
+            "url": "http://www.uzh.ch",
+        },
+        {
+            "name": "ETHZ",
+            "location": "Zürich",
+            "degree": "-",
+            "major": ["Computer Science"],
+            "dates": "2002/09 - 2007/02",
+            "url": "http://www.ethz.ch",
+        },
+        {
+            "name": "Kantonsschule",
+            "location": "Sursee",
+            "degree": "Matura",
+            "major": ["Schwerpunktfach Wirtschaft und Recht"],
+            "dates": "1996/08 - 2002/05",
+            "url": "http://www.kssursee.ch",
         },
     ]
 };
